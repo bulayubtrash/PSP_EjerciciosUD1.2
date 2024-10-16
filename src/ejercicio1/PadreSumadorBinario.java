@@ -29,13 +29,14 @@ public class PadreSumadorBinario {
 		int n;
 		
 		System.out.println("Introduzca la ruta del archivo");
-		
+		                                          
 		pb= new ProcessBuilder(args);
 		
 		try {
 			proceso= pb.start();
 			
 			DataInputStream dis = new DataInputStream(new FileInputStream("C:\\Users\\usuario\\Desktop\\numeros.dat"));
+			
 			
 			
 			
